@@ -28,7 +28,8 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'C://Users//ravik//PycharmProjects//pythonProject//model_resnet50.h5'
+#MODEL_PATH = '/var/app/current/model_resnet50.h5'
+MODEL_PATH = 'C:\\Users\\ravik\\PycharmProjects\\pythonProject\\model_resnet50.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
